@@ -1,0 +1,404 @@
+body {
+    background-color: rgb(8, 22, 38);
+}
+            
+a:visited {
+    text-decoration: none;
+}
+
+/*----------------NAVBAR/HERO SECTION----------------*/ 
+a:hover {
+    text-decoration: none;
+}
+            
+            .center-image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .hero {
+                padding-top: 0px;
+                margin-top: 0px;
+                padding-bottom: 0px;
+                background-color: rgb(8, 22, 38);
+                height: 800px;
+                background-size: cover;
+                font-family: SF Mono Medium;
+                font-weight: bold;
+                color: rgb(240, 240, 240);
+            }
+            
+            .heroHello {
+                display: block;
+                position: relative;
+                padding-top:300px;
+                padding-left:100px;
+                color: white;
+            }
+            
+            .heroPreText {
+                color: rgb(87, 183, 218);
+                font-family: SF Mono Light;
+                font-size: 16px;
+            }
+            
+            .heroName {
+                color: rgb(240, 240, 240);
+                font-family: SF Mono Semibold;
+                font-size: 44px;
+            }
+            
+            .heroPostText {
+                color: rgb(93, 128, 160);
+                font-family: SF Mono Heavy;
+                font-size: 24px;
+            }
+            
+            .heroButton {
+                background-color: rgb(8, 22, 38);
+                border: 1px solid rgb(87, 183, 218);
+                height: 40px;
+                color: rgb(87, 183, 218);
+                margin-top:50px;
+            }
+            
+            .heroButton:hover {
+                opacity: 0.5;
+            }
+            
+            .heroButton > p {
+                padding: 7px 3px 3px 3px;
+            }
+            
+            .topnav {
+                background-color: rgb(8, 22, 38);
+                position: fixed;
+                z-index: 100;
+                margin-bottom: -20px;
+                font-family: SF Mono Bold;
+                height: 40px;
+                color: rgb(240, 240, 240);
+                width: 100%;
+            
+            }
+            
+            .navleft{
+                float:left;
+                position: relative;
+                margin-top: 10px;
+                padding-left: 50px;
+            }
+            
+            .navright{
+                float:right;
+                position: relative;
+                margin-top: 10px;
+                padding-right: 50px;
+            }
+            
+            /*----------------ABOUT ME SECTION----------------*/
+            .aboutMe {
+                background-color: rgb(8, 22, 38);
+                padding-top: 0px;
+                margin-top: -20px;
+                height: 600px;
+                font-family: SF Mono Medium;
+                width: 100%;
+            }
+            
+            .description {
+                color: rgb(240, 240, 240);
+                font-family: SF Mono Medium;
+                font-size: 34px;
+            }
+            
+            .description h4 {
+                font-family: SF Mono Bold;
+                font-size: 34px;
+            }
+            
+            .description p {
+                color: rgb(93, 128, 160);
+                font-size: 16px;
+            }
+            
+            .languages {
+                color: rgb(93, 128, 160);
+                font-size: 14px;
+                padding-top: 10px;
+            }
+            
+            .languages h4 {
+                font-family: SF Mono Bold;
+                color: rgb(240, 240, 240);
+                font-size: 28px;
+            }
+            
+            .frameworks {
+                color: rgb(93, 128, 160);
+                font-size: 14px;
+                padding-top: 10px;
+            }
+            
+            .frameworks h4 {
+                font-family: SF Mono Bold;
+                color: rgb(240, 240, 240);
+                font-size: 28px;
+            }
+            
+            .aboutMe li {
+                list-style-type: square;
+                /*list-style-image: url('/static/index_imgs/bullet.jpg');
+                height:15px;*/
+            }
+            
+            
+            /*----------------PROJECT CARD SECTION----------------*/
+            .projectSection {
+                background-color: rgb(8, 22, 38);
+                margin-top: -10px;
+                width: 100%;
+                padding-top: 100px;
+                font-family: SF Mono Heavy;
+            }
+            
+            .projectSection h4 {
+                color: rgb(240, 240, 240);
+                font-family: SF Mono Semibold;
+                font-size: 34px;
+            }
+            
+            .projectCardWrapper {
+            
+                padding-top: 0px;
+                margin: 10px 0 20px 0;
+                background-color: rgb(23, 42, 69);
+                position: relative;
+                font-family: SF Mono Semibold;
+                border-top-width: 0;
+                border-bottom-width: 2px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                -webkit-box-shadow: none;
+                overflow: hidden;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            
+            }
+            
+            .projectCardWrapper:hover {
+                opacity: 0.70;
+            }
+            
+            .projectCardHeader {
+                height: 60px;
+                position: relative;
+            }
+            
+            .projectCardHeaderLeft img {
+                width: 40px;
+                height: 40px;
+                max-width: 40px;
+                max-height: 40px;
+                float:left;
+                margin-top: 10px;
+                margin-left: 10px;
+                opacity: 0.6;
+            }
+            
+            .projectCardHeaderRight img {
+                width: 40px;
+                height: 40px;
+                max-width: 40px;
+                max-height: 40px;
+                float:right;
+                margin-top: 10px;
+                margin-right: 10px;
+                opacity: 0.6;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                border: 2px solid rgba(255,255,255,0.5);
+            }
+            
+            .projectCardBody {
+                height:150px;
+            }
+            
+            .projectCardTitle {
+                position: relative;
+                color: rgb(240, 240, 240);
+                font-family: SF Mono Semibold;
+                font-size: 18px;
+                margin: 10px 0px 0px 10px;
+            }
+            
+            .projectCardDesc {
+                position: relative;
+                display: block;
+                color: rgb(93, 128, 160);
+                font-family: SF Mono;
+                font-size: 12px;
+                margin: 10px 0px 0px 10px;
+            }
+            
+            .ProjectCardFooter {
+                position: relative;
+                color: rgb(93, 128, 160);
+                font-family: SF Mono;
+                font-size: 12px;
+                margin-bottom: 5px;
+                margin-left: 10px;
+                height:20px;
+                text-align: middle;
+            }
+            
+            .btn { border-radius: 50%; width:32px; height:32px; line-height:18px;  }
+            
+            .headQuote {
+                margin: 5px 0px 5px 10px;
+            }
+            
+            /*colors: 255, 115, 97
+                      57, 116, 204
+                      107, 136, 179 */
+            
+            .quotecard {
+                margin: 10px 60px 20px 60px;
+                background-color: rgba(214, 224, 226, 0.2);
+                border-top-width: 0;
+                border-left-width: 4px;
+                border-left-style: solid;
+                border-left-color: rgb(255, 83, 120);
+            }
+            
+            .quotetext {
+                margin: 10px 60px 20px 60px;
+                min-height: 110px;
+                background-color: rgba(214, 224, 226, 0.2);
+                border-top-width: 0;
+                border-left-width: 4px;
+                border-left-style: solid;
+                border-left-color: rgb(255, 83, 120);
+                display: inline-block;
+                vertical-align: middle;
+                padding: 20px 0px 20px 10px;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .quoteAvatar {
+                display: inline-block;
+                vertical-align: middle;
+                width: 150px;
+                text-align: center;
+                background-color: rgba(214, 224, 226, 0.2);
+            }
+            
+            .quoteAvatar img {
+                width: 100px;
+                height: 100px;
+                max-width: 100px;
+                max-height: 100px;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                border-radius: 100%;
+                border: 2px solid rgba(255,255,255,0.5);
+            }
+            
+            /*-------------------FOOTER---------------------*/
+            
+            .footer {
+                display: block;
+                margin-left: 43%;
+                font-size: 12px;
+                color: rgb(93, 128, 160);
+                font-family: SF Mono Semibold;
+            
+            }
+            
+            
+            /*------------------PROJECT TEMPLATE------------*/
+            
+            .projectTitle {
+                font-family: SF Mono Bold;
+                font-size: 34px;
+                color: rgb(8, 22, 38);
+                text-align: left;
+                padding-top: 40px;
+            }
+            
+            
+            .projectHeader {
+                font-family: SF Mono Semibold;
+                font-size: 26px;
+                color: rgb(8, 22, 38);
+                text-align: left;
+            }
+            
+            .projectBody {
+                font-family: SF Mono;
+                font-size: 14px;
+                color: rgb(93, 128, 160);
+                text-align: left;
+            }
+            
+            .projectBody a {
+                color: rgb(87, 183, 218);
+                font-family: SF Mono Heavy;
+            
+            }
+            
+            .projectPage {
+                background-color: rgb(240, 240, 240);
+            }
+            
+            .pictureCaption {
+                font-family: SF Mono;
+                font-size: 12px;
+                font-style: italic;
+                color: rgb(170, 170, 170);
+                text-align: center;
+            }
+            
+            
+            /*-------------------FONTS---------------------*/
+            @font-face{
+            font-family: SF Mono;
+            src: url('/static/fonts/SFMonoRegular.otf');
+            }
+            
+            @font-face{
+            font-family: SF Mono Heavy;
+            src: url('/static/fonts/SFMonoHeavy.otf');
+            }
+            
+            @font-face{
+            font-family: SF Mono Bold;
+            src: url('/static/fonts/SFMonoBold.otf');
+            font-weight: medium;
+            }
+            
+            @font-face{
+            font-family: SF Mono Light;
+            src: url('/static/fonts/SFMonoLight.otf');
+            font-weight: medium;
+            }
+            
+            @font-face{
+            font-family: SF Mono Medium;
+            src: url('/static/fonts/SFMonoMedium.otf');
+            font-weight: medium;
+            }
+            
+            @font-face{
+            font-family: SF Mono Semibold;
+            src: url('/static/fonts/SFMonoSemibold.otf');
+            font-weight: medium;
+            }
+            

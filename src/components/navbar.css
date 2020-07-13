@@ -1,0 +1,25 @@
+.topnav {
+    background-color: rgb(8, 22, 38);
+    position: fixed;
+    z-index: 100;
+    margin-bottom: -20px;
+    font-family: SF Mono Bold;
+    height: 40px;
+    color: rgb(240, 240, 240);
+    width: 100%;
+
+}
+
+.navleft{
+    float:left;
+    position: relative;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+.navright{
+    float:right;
+    position: relative;
+    margin-top: 10px;
+    padding-right: 50px;
+}
