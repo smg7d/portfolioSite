@@ -5,11 +5,16 @@ class NavBar extends Component {
     render() {
         return ( 
             <nav className="navbar topnav">
-                <a className="navbar-brand" href="#">
-                    this is some sample text
-                    <span className="badge badge-pill badge-secondary">
-                    </span>
-                </a>
+                <div className="leftNav">
+                    <div className="navItemLeft"><a href="#">Me</a></div>
+                    <div className="navItemLeft"><a href="#">Tech</a></div>
+                    <div className="navItemLeft"><a href="#">Finance</a></div>
+                </div>
+                <div className="rightNav">
+                    <div className="navItemRight"><a href="#">GitHub</a></div> 
+                    <div className="navItemRight"><a href="#">Resume</a></div>
+                </div>
+                               
         </nav>);
     }
 }

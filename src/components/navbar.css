@@ -4,22 +4,47 @@
     z-index: 100;
     margin-bottom: -20px;
     font-family: SF Mono Bold;
+    font-size: 12px;
     height: 40px;
-    color: rgb(240, 240, 240);
+    color: rgb(87, 183, 218);
     width: 100%;
 
 }
 
-.navleft{
-    float:left;
-    position: relative;
-    margin-top: 10px;
-    padding-left: 50px;
+.leftNav {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width:50%;
 }
 
-.navright{
-    float:right;
-    position: relative;
-    margin-top: 10px;
-    padding-right: 50px;
+.rightNav {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    width:50%;
+}
+
+.navItemLeft {
+    width:20%;
+}
+
+.navItemRight {
+    width:20%;
+    float: right;
+    justify-self: right;
+}
+
+@font-face{
+    font-family: SF Mono Bold;
+    src: local(SFMonoBold), url(../static/fonts/SFMonoBold.otf);
+    font-weight: medium;
+}
+
+div.a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
 }
