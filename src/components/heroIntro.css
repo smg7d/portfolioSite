@@ -1,0 +1,92 @@
+@media screen and (min-width:700px)
+{
+    .heroContainer {
+        width: 100%;
+        background-color: rgb(8, 22, 38);
+        padding-top: 300px;
+    }
+    
+    .heroPreText {
+        color: rgb(87, 183, 218);
+        font-family: SF Mono Light;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0px 10px 0px 75px;
+    }
+    
+    .heroName {
+        color: rgb(240, 240, 240);
+        font-family: SF Mono Bold;
+        font-size: 44px;
+        margin: 0px 10px 0px 75px;
+    }
+    
+    .heroPostText {
+        color: rgb(93, 128, 160);
+        font-family: SF Mono Heavy;
+        font-size: 24px;
+        margin: 0px 10px 0px 75px;
+    }
+    
+    .heroButton {
+        background-color: rgb(8, 22, 38);
+        border: 1px solid rgb(87, 183, 218);
+        height: 40px;
+        width: 300px;
+        color: rgb(87, 183, 218);
+        margin: 50px 10px 0px 75px;
+        padding: 8px;
+        font-family: SF Mono Medium;
+    }
+    
+    .heroButton:hover {
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width:700px)
+{
+    .heroContainer {
+        width: 100%;
+        background-color: rgb(8, 22, 38);
+        padding-top: 150px;
+    }
+    
+    .heroPreText {
+        color: rgb(87, 183, 218);
+        font-family: SF Mono Light;
+        font-size: 16px;
+        margin: 0px 10px 0px 15px;
+    }
+    
+    .heroName {
+        color: rgb(240, 240, 240);
+        font-family: SF Mono Semibold;
+        font-size: 44px;
+        margin: 0px 10px 0px 15px;
+    }
+    
+    .heroPostText {
+        color: rgb(93, 128, 160);
+        font-family: SF Mono Heavy;
+        font-size: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 10px 0px 15px;
+    }
+    
+    .heroButton {
+        background-color: rgb(8, 22, 38);
+        border: 1px solid rgb(87, 183, 218);
+        height: 40px;
+        width: 260px;
+        color: rgb(87, 183, 218);
+        margin:20px 0px 0px 15px;
+        padding: 5px;
+
+    }
+    
+    .heroButton:hover {
+        opacity: 0.5;
+    }
+}

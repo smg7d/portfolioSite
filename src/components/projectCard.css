@@ -1,0 +1,90 @@
+
+.projectCardWrapper {
+
+    padding-top: 0px;
+    margin: 10px 0 20px 15px;
+    background-color: rgb(23, 42, 69);
+    width: 33%;
+    position: relative;
+    font-family: SF Mono Semibold;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    overflow: hidden;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.projectCardWrapper:hover {
+    opacity: 0.70;
+}
+
+.projectCardHeader {
+    height: 60px;
+    position: relative;
+}
+
+.projectCardHeaderLeft img {
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    float:left;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.6;
+}
+
+.projectCardHeaderRight img {
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    float:right;
+    margin-top: 10px;
+    margin-right: 10px;
+    opacity: 0.6;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.5);
+}
+
+.projectCardBody {
+    height:150px;
+}
+
+.projectCardTitle {
+    position: relative;
+    color: rgb(240, 240, 240);
+    font-family: SF Mono Semibold;
+    font-size: 18px;
+    margin: 10px 0px 0px 10px;
+}
+
+.projectCardDesc {
+    position: relative;
+    display: block;
+    color: rgb(93, 128, 160);
+    font-family: SF Mono;
+    font-size: 12px;
+    margin: 10px 0px 0px 10px;
+}
+
+.ProjectCardFooter {
+    position: relative;
+    color: rgb(93, 128, 160);
+    font-family: SF Mono;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    height:20px;
+    text-align: middle;
+}

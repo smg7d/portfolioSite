@@ -1,0 +1,132 @@
+@media screen and (min-width:700px) 
+{
+    .aboutMeContainer {
+        width: 100%;
+        background-color: rgb(8, 22, 38);
+        padding-top: 300px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aboutMeTitle {
+        color: rgb(240, 240, 240);
+        font-family: SF Mono Bold;
+        font-size: 34px;
+        margin-left: 75px;
+        width: 100%;
+    }
+
+    .aboutMeParagraph {
+        color: rgb(93, 128, 160);
+        font-family: SF Mono Bold;
+        font-size: 16px;
+        margin-left: 75px;
+        width: 70%;
+    }
+
+    .aboutMeParagraph > a {
+        font-family: SF Mono Bold;
+        color: rgb(87, 183, 218);
+        font-size: 16px;
+    }
+
+    .aboutMeParagraph > a:hover {
+        text-decoration: none;
+        opacity: 0.5;
+        color: rgb(87, 183, 218);
+    }
+
+    .toolsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: SF Mono Bold;
+        color: rgb(240, 240, 240);
+        font-size: 20px;
+    }
+
+    .languagesAndFrameworks {
+        color: rgb(93, 128, 160);
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    
+    .languagesAndFrameworks h4 {
+        font-family: SF Mono Bold;
+        color: rgb(240, 240, 240);
+        font-size: 28px;
+    }
+
+   
+
+    .spacingDiv {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:700px) 
+{
+    .aboutMeContainer {
+        width: 100%;
+        background-color: rgb(8, 22, 38);
+        padding-top: 250px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aboutMeTitle {
+        color: rgb(240, 240, 240);
+        font-family: SF Mono Bold;
+        font-size: 30px;
+        margin-left: 15px;
+        
+    }
+
+    .aboutMeParagraph {
+        color: rgb(93, 128, 160);
+        font-family: SF Mono Bold;
+        font-size: 14px;
+        margin-left: 15px;
+        width: 90%;
+    }
+
+    .toolsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: SF Mono Bold;
+        color: rgb(240, 240, 240);
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .aboutMeParagraph > a {
+        font-family: SF Mono Bold;
+        color: rgb(87, 183, 218);
+        font-size: 14px;
+    }
+
+    .aboutMeParagraph > a:hover {
+        text-decoration: none;
+        opacity: 0.5;
+        color: rgb(87, 183, 218);
+    }
+
+    .languagesAndFrameworks {
+        color: rgb(93, 128, 160);
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    
+    .languagesAndFrameworks h4 {
+        font-family: SF Mono Bold;
+        color: rgb(240, 240, 240);
+        font-size: 16px;
+    }
+
+    ul {
+        margin-left: -15px;
+    }
+
+    .spacingDiv {
+        width: 5%;
+    }
+}
