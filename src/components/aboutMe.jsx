@@ -9,17 +9,17 @@ class AboutMe extends Component {
                 <div className="aboutMeTitle">About Me</div>
                 <div className="aboutMeParagraph">I currently work as a data engineer at Atlanta-based 
                 healthcare startup <a href="https://loyalhealth.com/" target="_blank">Loyal</a> building ETL
-                pipelines and managing all things data. My career started in finance, first modeling 
-                mortgage-backed securities at Fannie Mae and later as a product specialist at Invesco, 
-                where I worked on a team that used data to develop, message, and sell quantitative fixed 
-                income products. 
+                pipelines from hospital systems to our own cloud warehouse and managing all things data. 
+                My career started in finance, first modeling mortgage-backed securities at Fannie Mae and 
+                later as a product specialist at Invesco where I was part of a team that used data to develop, 
+                message, and sell quantitative fixed income strategies. 
                 <br />
                 <br />
                 I caught the programming bug in graduate school at U.Va. during Stefano Grazioli's 
-                <a href="https://dl.acm.org/doi/abs/10.5555/2693848.2694290?download=true" target="_blank"> hedging tournament </a> 
-                and never looked back. Learning since then has been largely self-taught with some accredited 
-                classes. More recently I enrolled in the <a href="https://omscs.gatech.edu/" target="_blank">OMSCS program</a> at 
-                Georgia Tech. 
+                <a href="https://dl.acm.org/doi/abs/10.5555/2693848.2694290?download=true" target="_blank"> hedging tournament </a>
+                and never looked back. Since then, I've largely been self-taught with the exception of some 
+                accredited classes through Oregon State University. More recently I enrolled in the 
+                <a href="https://omscs.gatech.edu/" target="_blank"> OMSCS program </a>at Georgia Tech. 
                 <br />
                 <br />
                 Outside of work, I like to play squash, mess around with micro-controllers and SBCs, and talk about developments
@@ -63,13 +63,14 @@ class AboutMe extends Component {
                             <li>R, TidyVerse</li>
                         </ul>
                     </div>
-                    <div className="spacingDiv"></div>
+                    <div className="spacingDivLast"></div>
                     <div className="languagesAndFrameworks">
                         <h4>Infra & Deployment</h4>
                         <ul>
                             <li>Docker</li>
                             <li>Linux</li>
                             <li>AWS, Azure</li>
+                            <li>Heroku</li>
                             <li>Raspberry Pi</li>
                         </ul>
                     </div>
