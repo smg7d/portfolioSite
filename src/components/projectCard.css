@@ -2,9 +2,9 @@
 .projectCardWrapper {
 
     padding-top: 0px;
-    margin: 10px 0 20px 15px;
+    margin: -3px 0 20px 15px;
     background-color: rgb(23, 42, 69);
-    width: 33%;
+    width: 30%;
     position: relative;
     font-family: SF Mono Semibold;
     border-top-width: 0;
@@ -24,6 +24,7 @@
 
 .projectCardWrapper:hover {
     opacity: 0.70;
+    margin-top: -6px;
 }
 
 .projectCardHeader {
@@ -67,24 +68,26 @@
     font-family: SF Mono Semibold;
     font-size: 18px;
     margin: 10px 0px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .projectCardDesc {
     position: relative;
     display: block;
     color: rgb(93, 128, 160);
-    font-family: SF Mono;
+    font-family: SF Mono Medium;
     font-size: 12px;
-    margin: 10px 0px 0px 10px;
+    margin: 5px 0px 0px 10px;
+    padding-right:5px;
 }
 
 .ProjectCardFooter {
     position: relative;
     color: rgb(93, 128, 160);
-    font-family: SF Mono;
+    font-family: SF Mono Medium;
     font-size: 12px;
     margin-bottom: 5px;
     margin-left: 10px;
     height:20px;
-    text-align: middle;
 }

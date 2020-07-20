@@ -21,7 +21,7 @@
         font-family: SF Mono Bold;
         font-size: 16px;
         margin-left: 75px;
-        width: 70%;
+        width: 85%;
     }
 
     .aboutMeParagraph > a {
@@ -41,26 +41,37 @@
         flex-wrap: wrap;
         font-family: SF Mono Bold;
         color: rgb(240, 240, 240);
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .languagesAndFrameworks {
         color: rgb(93, 128, 160);
-        font-size: 14px;
-        padding-top: 10px;
+        font-size: 13px;
+        padding-top: 15px;
+        padding-left: -5px;
     }
     
     .languagesAndFrameworks h4 {
         font-family: SF Mono Bold;
         color: rgb(240, 240, 240);
-        font-size: 28px;
+        font-size: 18px;
     }
 
-   
+    li {
+        list-style-type: square;
+        list-style-image: url('/static/index_imgs/bullet.jpg');
+        height:20px;
+    }
 
     .spacingDiv {
-        width: 30%;
+        width: 5%;
     }
+
+    ul {
+        margin-left: -15px;
+    }
+
+    
 }
 
 @media screen and (max-width:700px) 
@@ -123,7 +134,7 @@
     }
 
     ul {
-        margin-left: -15px;
+        margin-left: -20px;
     }
 
     .spacingDiv {

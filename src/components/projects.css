@@ -9,13 +9,13 @@
     font-family: SF Mono Bold;
     font-size: 34px;
     margin-left: 75px;
-    padding-top: 50px;
-    width: 100%;
+    padding-top: 40px;
+    margin-bottom: 10px;
 }
 
 .projectGrid {
-    width: 70%;
-    margin-left: 75px;
+    width: 85%;
+    margin-left: 60px;
     display: flex;
     flex-wrap: wrap;
 }

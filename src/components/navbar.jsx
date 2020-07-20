@@ -12,7 +12,7 @@ class NavBar extends Component {
                 </div>
                 <div className="rightNav">
                     <div className="spacingDivNav"></div>
-                    <div className="navItemRight"><a href="#">GitHub</a></div> 
+                    <div className="navItemRight"><a href="https://github.com/smg7d" target="_blank">GitHub</a></div> 
                     <div className="navItemRight"><a href="#">Resume</a></div>
                 </div>
                                

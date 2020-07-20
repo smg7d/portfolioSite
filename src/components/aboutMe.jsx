@@ -7,79 +7,78 @@ class AboutMe extends Component {
         return ( 
             <div className="aboutMeContainer">
                 <div className="aboutMeTitle">About Me</div>
-                <div className="aboutMeParagraph">I currently work as a data engineer at an Atlanta-based 
-                startup called <a href="https://loyalhealth.com/" target="_blank">Loyal</a>. I started my career in finance and spent the past five years helping 
-                to tell the story around quantitative fixed income investing strategies. I'm a big fan of squash, 
-                IoT, and python (come join us at <a href="https://www.meetup.com/python-atlanta/">PyAtl</a>).
+                <div className="aboutMeParagraph">I currently work as a data engineer at Atlanta-based 
+                healthcare startup <a href="https://loyalhealth.com/" target="_blank">Loyal</a> building ETL
+                pipelines and managing all things data. My career started in finance, first modeling 
+                mortgage-backed securities at Fannie Mae and later as a product specialist at Invesco, 
+                where I worked on a team that used data to develop, message, and sell quantitative fixed 
+                income products. 
                 <br />
                 <br />
-                Here are the tools I work with:
+                I caught the programming bug in graduate school at U.Va. during Stefano Grazioli's 
+                <a href="https://dl.acm.org/doi/abs/10.5555/2693848.2694290?download=true" target="_blank"> hedging tournament </a> 
+                and never looked back. Learning since then has been largely self-taught with some accredited 
+                classes. More recently I enrolled in the <a href="https://omscs.gatech.edu/" target="_blank">OMSCS program</a> at 
+                Georgia Tech. 
+                <br />
+                <br />
+                Outside of work, I like to play squash, mess around with micro-controllers and SBCs, and talk about developments
+                in python with others at PyAtl (come join <a href="https://www.meetup.com/python-atlanta/" target="_blank"> us</a>).
+                <br />
+                <br />
+                <br />
+                Here are the tools I mostly work with:
 
                 <div className="toolsContainer">
                     <div className="languagesAndFrameworks">
-                        <h4>Languages</h4>
+                        <h4>Front End</h4>
                         <ul>
-                            <li>C#</li>
-                            <li>Python</li>
-                            <li>C++</li>
-                            <li>R</li>
-                            <li>Javascript</li>
-                            <li>T-SQL</li>
-                            <li>VBA</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Material UI</li>
+                            <li>HTML, CSS</li>
                         </ul>
                     </div>
                     <div className="spacingDiv"></div>
                     <div className="languagesAndFrameworks">
-                        <h4>Frameworks</h4>
+                        <h4>Back End</h4>
                         <ul>
+                            <li>Python</li>
                             <li>Flask</li>
-                            <li>Numpy + Pandas</li>
-                            <li>React</li>
-                            <li>HTML5/CSS3</li>
-                            <li>Bootstrap</li>
-                            <li>Heroku</li>
-                            <li>Github</li>
+                            <li>C#</li>
+                            <li>ASP.NET</li>
+                            <li>.NET Core</li>
+                        </ul>
+                    </div>
+                    <div className="spacingDiv"></div>
+                    <div className="languagesAndFrameworks">
+                        <h4>Data & Viz</h4>
+                        <ul>
+                            <li>T-SQL</li>
+                            <li>MongoDB</li>
+                            <li>Redis</li>
+                            <li>Kafka</li>
+                            <li>Airflow</li>
+                            <li>Numpy, Pandas</li>
+                            <li>R, TidyVerse</li>
+                        </ul>
+                    </div>
+                    <div className="spacingDiv"></div>
+                    <div className="languagesAndFrameworks">
+                        <h4>Infra & Deployment</h4>
+                        <ul>
+                            <li>Docker</li>
+                            <li>Linux</li>
+                            <li>AWS, Azure</li>
+                            <li>Raspberry Pi</li>
                         </ul>
                     </div>
                 </div>
                 
                 </div>
             </div>
-            
         );
     }
 }
  
 export default AboutMe;
-
-// change languages and frameworks to front end, backend, data, and infra
-//front end
-    //JavaScript
-    //React
-    //Material UI
-    //CSS + HTML
-//back end
-    //Python
-    //Flask
-    //C#
-    //ASP.Net Core
-//data
-    //T-SQL
-    //PostGreSQL
-    //MongoDB
-    //Kafka
-    //Redis
-    //Spark
-    //Hadoop
-    //Airflow
-    //Numpy, Pandas
-    //R, TidyVerse
-//infra
-    //Docker + Kubernetes
-    //Jenkins
-    //Ansible
-    //AWS (S3)
-    //Azure
-    //Linux
-    //Terraform
-    //Raspberry Pi, Arduino, Circuit Python 
