@@ -90,3 +90,16 @@
         opacity: 0.5;
     }
 }
+
+
+.heroButton > a {
+    color: rgb(87, 183, 218);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
