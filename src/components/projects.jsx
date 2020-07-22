@@ -16,6 +16,7 @@ class Projects extends Component {
             cardFooter: "C++",
             leftImg: ProjSvg,
             rightImg: ZeldaImg,
+            link: "/zelda",
         },
         friendshipParadox : {
             cardDescription: "Verifying a property of social networks using the Instagram API",
@@ -23,6 +24,7 @@ class Projects extends Component {
             cardFooter: "Python",
             leftImg: ProjSvg,
             rightImg: FriendshipImg,
+            link: "/friendshipParadox",
         },
         homeTempData: {
             cardDescription: "Gathering and analyzing home temperature data using a raspberry pi.",
@@ -30,6 +32,7 @@ class Projects extends Component {
             cardFooter: "Python, Rpi, Bash",
             leftImg: ProjSvg,
             rightImg: HomeTempImg,
+            link: "/homeTempData",
         },
         excelChat: {
             cardDescription: "A simple, no-frills, multi-user chat application all based in Excel.",
@@ -37,6 +40,7 @@ class Projects extends Component {
             cardFooter: "VBA, SQL",
             leftImg: ProjSvg,
             rightImg: ChatImg,
+            link: "/excelChat",
         }
     }
     render () {

@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import NavBar from './components/navbar';
-import Hero from './components/heroIntro';
 import AboutMe from './components/aboutMe';
-import Projects from './components/projects';
-import Footer from './components/footer';
 import ProjectHeader from './components/projectHeader';
-import HomePage from './components/homePage';
-import { Router, Route } from 'react-router';
+import HomePage from './pages/homePage';
+import { Route } from 'react-router';
 import './App.css';
-import { NavLink, HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
+import ZeldaProject from './pages/zeldaProject';
 
 class App extends Component {
   render() {
@@ -17,6 +14,7 @@ class App extends Component {
           <Route exact path="/" component={HomePage}/>
           <Route path="/Finance" component={ProjectHeader}/>
           <Route path="/Blog" component={AboutMe}/>
+          <Route path="/Zelda" component={ZeldaProject}/>
         </HashRouter>
     )
   }

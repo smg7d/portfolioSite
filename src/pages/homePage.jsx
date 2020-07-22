@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import NavBar from './navbar';
-import Hero from './heroIntro';
-import AboutMe from './aboutMe';
-import Projects from './projects';
-import Footer from './footer';
+import NavBar from '../components/navbar';
+import Hero from '../components/heroIntro';
+import AboutMe from '../components/aboutMe';
+import Projects from '../components/projects';
+import Footer from '../components/footer';
 
 class HomePage extends Component {
     render() { 
