@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './navbar.css';
+import { NavLink } from 'react-router-dom';
 
 class NavBar extends Component {
     render() {
         return ( 
             <nav className="topnav">
                 <div className="leftNav">
-                <div className="navItemLeft"><a href="#">Tech</a></div>
-                    <div className="navItemLeft"><a href="#">Finance</a></div>
-                    <div className="navItemLeft"><a href="#">Blog</a></div>
+                <div className="navItemLeft"><NavLink to="/">Tech</NavLink></div>
+                    <div className="navItemLeft"><NavLink to="/Finance">Finance</NavLink></div>
+                    <div className="navItemLeft"><NavLink to="/Blog">Blog</NavLink></div>
                 </div>
                 <div className="rightNav">
                     <div className="spacingDivNav"></div>
