@@ -1,0 +1,45 @@
+.projectBody {
+    font-family: SF Mono Medium;
+    font-size: 14px;
+    color: rgb(93, 128, 160);
+    text-align: left;   
+    background-color: rgb(240, 240, 240);
+    margin-top: 12px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.projectParagraph {
+    font-family: SF Mono Medium;
+    font-size: 14px;
+    color: rgb(93, 128, 160);
+    text-align: left; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.projectBody > h3 {
+    font-size: 20px;
+    color: black;
+    font-family: SF Mono Heavy;
+    text-align: left; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectBody > p > a {
+    color: rgb(87, 183, 218);
+    font-family: SF Mono Heavy;
+}
+
+a:hover {
+    text-decoration: none;
+}

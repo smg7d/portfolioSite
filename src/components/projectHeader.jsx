@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
+import './projectHeader.css';
 
 class ProjectHeader extends Component {
     render() { 
         return ( 
-            <div>
-                This is the project header 
+            <div className="projectHeaderContainer">
+                {this.props.title}
+                <div className="projectHeaderSubtitle">
+                    {this.props.subtitle}
+                </div>
+                
             </div>
          );
     }

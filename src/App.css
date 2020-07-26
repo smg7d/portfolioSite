@@ -27,3 +27,7 @@
     src: local(SFMonoMedium), url(./static/fonts/SFMonoMedium.otf);
     font-weight: bold;
 }
+
+a:hover {
+    text-decoration: none;
+}
