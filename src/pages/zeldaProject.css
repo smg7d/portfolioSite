@@ -33,13 +33,34 @@ img {
     text-align: left; 
     display: flex;
     flex-wrap: wrap;
+    margin: 0px 0px 10px 0px;
 }
 
-.projectBody > p > a {
+.projectBody > h4 {
+    font-size: 20px;
+    color: black;
+    font-family: SF Mono Heavy;
+    text-align: left; 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
+}
+
+a {
     color: rgb(87, 183, 218);
     font-family: SF Mono Heavy;
 }
 
-a:hover {
-    text-decoration: none;
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+@media screen and (max-width: 700px) {
+    img {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }

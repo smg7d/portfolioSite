@@ -4,7 +4,11 @@ import React, { Component } from 'react';
 const p1 = () => {
     return (
         <React.Fragment>
-            <p>This project is a text-based, Zelda-themed game that, at each turn, prints a board to the console and provides players with a menu of options. The goal of the game is to collect objects and defeat enemies on your path to collecting the "triforce." All objects are represented by ASCII characters, so it's not exactly pretty. Ok, actually it's downright ugly, but we're not shooting for any design awards here, we're demonstrating an ability to</p>
+            This project is a text-based, Zelda-themed game that, at each turn, prints a board to the 
+            console and provides players with a menu of options. The goal of the game is to collect objects 
+            and defeat enemies on your path to collecting the "triforce." All objects are represented by 
+            ASCII characters, so it's not exactly pretty. Ok, actually it's downright ugly, but we're not 
+            shooting for any design awards here, we're demonstrating an ability to
             <ul>
                 <li>work with pointers</li>
                 <li>properly allocate and free memory</li>
@@ -47,12 +51,11 @@ where he faces the dragon boss, Link collects the triforce and the game is over.
 
 const p7 = () => {
     return (
-        <p>
+            <p>
             And that's pretty much it. Since it's an executable that prints to the console, there is no great 
-            way to host this on the web, but all of the files are available at 
-            <a href="https://github.com/smg7d/asciiZelda"> this</a> github repository (note: 
+            way to host this on the web, but all of the files are available at <a href="https://github.com/smg7d/asciiZelda" target="_blank">this</a> github repository (note: 
             you will need a g++ compiler. xcode comes with one). Thanks for reading.
-        </p>
+            </p>
     )
 }
 

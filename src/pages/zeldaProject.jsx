@@ -5,7 +5,6 @@ import Footer from '../components/footer';
 import { p1, p2, p3, p4, p5, p6, p7 } from '../projects/zelda/text';
 import mainMenu from '../projects/zelda/mainMenu.jpg'
 import battle from '../projects/zelda/battle.jpg'
-import hammer from '../projects/zelda/hammer.jpg'
 import info from '../projects/zelda/info.jpg'
 import item from '../projects/zelda/item.jpg'
 import rock from '../projects/zelda/rock.jpg'
@@ -14,7 +13,6 @@ import triforce from '../projects/zelda/triforce.jpg'
 import './zeldaProject.css';
 
 class ZeldaProject extends Component {
-    state = {  }
     render() { 
         return ( 
             <React.Fragment>
@@ -38,7 +36,7 @@ class ZeldaProject extends Component {
                     <img src={battle}/>
                     <div className="projectParagraph">{p6}</div>
                     <img src={triforce}/>
-                    <h3>Running the program</h3>
+                    <h4>Running the program</h4>
                     <div className="projectParagraph">{p7()}</div>
                 </div>
                 <Footer />
