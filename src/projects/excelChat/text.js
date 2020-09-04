@@ -27,26 +27,37 @@ to enable macros and proceed if you wish.
 `;
 
 const p4 = `
-So the end result is a pretty easy way to read the temperature of the room whenever you'd like. Here it is in action.
+On normal exectution, the file hides the typical excel interface and instead presents a user interface for "logging on."
 `;
 
 const p5 = `
-I wanted data that was representative, so I let it run for a full week, reading the temperature every five minutes 
-and saving the time and data in a text file. After a full week, I converted the text file to csv and read the results 
-into a pandas data frame. A couple of seaborn plot commands later and this is what we get:
+I put "logging on" in quotes here because its a bit of a misnomer. There are no usernames or passwords, there is only 
+a "room" which is actually a temporary file to be created at a specified filepath/filename combo. Remember how we're 
+essentially reading/writing to a file very quickly? In order to do so, everyone needs to point to the same file or 
+"room." That means the same filepath and the same filename at that path needs to be entered (the code adds a randomized 
+bit of alphanumerics on the end to make sure it doesn't coincide with an existing file at that location). Full 
+instructions for using the program can be found by clicking the help button.
+
+Once you provide a directory path and a name, the chat interface boots up.
 `;
 
 const p6 = `
-So, off the bat, it looks like the AC actually is working, for the most part. It gets down to as cold as 64 degrees 
-which is typically where I have it set. That said, there's a clear daily cycle, rising and falling with the outside 
-temperature which indicates some lag in its ability to keep up, so it could be better, but in general the temperatures 
-are in a comfortable range.
+The info panel is found on the right hand side. It lists the location and file name of the room as well as all of 
+the users currently active in it. The users field pulls from the "Username" environment variable, which usually 
+corresponds to the system username. On the bottom of the screen is an input window where users can input their 
+messages, and above that is the chat window, which displays input text.
 `;
 
 const p7 = `
-As far as extending this, I plan to re-run this project keeping specific tabs on where I have the thermostat set, 
-cross referencing this with weather data accessed through an API and the electricity costs to see if I can back out 
-a cost per degree of cooling.
+And here is what a basic chat looks like. When users close the application, their username is cleared from the 
+info panel, and when the last user closes the application, the file is deleted. The refresh rate (the rate at which 
+the interface sends and receives data from the central workbook) is every 1 second, which experienced Excel users 
+might recognize as problematic. Opening and saving a file (manually or programatically) are operations that 
+typically take several seconds each. Instead, we treat the excel sheet as a database and use built in database 
+objects to query that excel sheet which supports reading, creating, and updating fields and doesn't require us 
+to actually open or close the file. The "table" is a matrix of usernames such that messages to be read by a user 
+are put in that users row, and messages written by a user are inserted into that users column (which in turn places 
+it in everyone user's row). This set up is much faster and presents no problems at the 1 second refresh rate.
 `;
 
 export { p1, p2, p3, p4, p5, p6, p7 }; 

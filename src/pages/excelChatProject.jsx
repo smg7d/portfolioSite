@@ -26,16 +26,13 @@ class ExcelChatProject extends Component {
                     <div className="projectParagraph">{p2}</div>
                     <h3>Running the program</h3>
                     <div className="projectParagraph">{p3}</div>
-                    <img src={loadScreen}/>
-                    <div className="projectParagraph">The info page lays out the details for the user.</div>
-                    <img src={newRoom}/>
-                    <div className="projectParagraph">And the start of the game looks like this:</div>
-                    <img src={text_one}/>
-                    <div className="projectParagraph">{p3}</div>
-                    <img src={text_two}/>
+                    <h3>Interface Overview</h3>
                     <div className="projectParagraph">{p4}</div>
-                    <img src={text_three}/>
+                    <img src={loadScreen}/>
                     <div className="projectParagraph">{p5}</div>
+                    <img src={newRoom}/>
+                    <div className="projectParagraph">{p6}</div>
+                    <img src={text_three}/>
                 </div>
                 <Footer />
             </React.Fragment>
