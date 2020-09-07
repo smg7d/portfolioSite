@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return ( 
             <div className="footerNav">
-                Created with React by Shane Gallagher            
+                Runs on React and AWS           
             </div>);
     }
 }
