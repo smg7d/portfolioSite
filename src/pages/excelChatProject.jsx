@@ -33,6 +33,7 @@ class ExcelChatProject extends Component {
                     <img src={newRoom}/>
                     <div className="projectParagraph">{p6}</div>
                     <img src={text_three}/>
+                    <div className="projectParagraph">{p7}</div>
                 </div>
                 <Footer />
             </React.Fragment>
