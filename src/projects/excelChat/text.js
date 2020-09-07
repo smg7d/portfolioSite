@@ -49,15 +49,19 @@ messages, and above that is the chat window, which displays input text.
 `;
 
 const p7 = `
-And here is what a basic chat looks like. When users close the application, their username is cleared from the 
-info panel, and when the last user closes the application, the file is deleted. The refresh rate (the rate at which 
-the interface sends and receives data from the central workbook) is every 1 second, which experienced Excel users 
-might recognize as problematic. Opening and saving a file (manually or programatically) are operations that 
-typically take several seconds each. Instead, we treat the excel sheet as a database and use built in database 
-objects to query that excel sheet which supports reading, creating, and updating fields and doesn't require us 
-to actually open or close the file. The "table" is a matrix of usernames such that messages to be read by a user 
-are put in that users row, and messages written by a user are inserted into that users column (which in turn places 
-it in everyone user's row). This set up is much faster and presents no problems at the 1 second refresh rate.
+this is a dumb test
 `;
+
+// const p7 = `
+// And here is what a basic chat looks like. When users close the application, their username is cleared from the 
+// info panel, and when the last user closes the application, the file is deleted. The refresh rate (the rate at which 
+// the interface sends and receives data from the central workbook) is every 1 second, which experienced Excel users 
+// might recognize as problematic. Opening and saving a file (manually or programatically) are operations that 
+// typically take several seconds each. Instead, we treat the excel sheet as a database and use built in database 
+// objects to query that excel sheet which supports reading, creating, and updating fields and doesn't require us 
+// to actually open or close the file. The "table" is a matrix of usernames such that messages to be read by a user 
+// are put in that users row, and messages written by a user are inserted into that users column (which in turn places 
+// it in everyone user's row). This set up is much faster and presents no problems at the 1 second refresh rate.
+// `;
 
 export { p1, p2, p3, p4, p5, p6, p7 }; 
