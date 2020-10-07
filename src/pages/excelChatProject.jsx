@@ -39,7 +39,12 @@ class ExcelChatProject extends Component {
             </React.Fragment>
 
         );
+        
     }
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 }
  
 export default ExcelChatProject;

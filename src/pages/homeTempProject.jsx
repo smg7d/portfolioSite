@@ -43,6 +43,10 @@ class HomeTempProject extends Component {
             
          );
     }
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 }
 
 export default HomeTempProject

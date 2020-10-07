@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import AboutMe from './components/aboutMe';
 import ProjectHeader from './components/projectHeader';
 import HomePage from './pages/homePage';
-import { Route } from 'react-router';
+import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
-import { HashRouter } from "react-router-dom";
+// import { HashRouter } from "react-router-dom";
+// import { createBrowserHistory } from 'history';
 import ZeldaProject from './pages/zeldaProject';
 import HomeTempProject from './pages/homeTempProject';
 import excelChatProject from './pages/excelChatProject';
@@ -12,16 +13,19 @@ import excelChatProject from './pages/excelChatProject';
 class App extends Component {
   render() {
     return (
-        <HashRouter>
-          <Route exact path="/" component={HomePage}/>
+        <BrowserRouter >
+          
+          <Route path='/' exact component={HomePage}/>
           <Route path="/Finance" component={ProjectHeader}/>
           <Route path="/Blog" component={AboutMe}/>
           <Route path="/Zelda" component={ZeldaProject}/>
           <Route path="/homeTempData" component={HomeTempProject}/>
           <Route path="/excelChat" component={excelChatProject}/>
-        </HashRouter>
+          
+        </BrowserRouter>
     )
   }
+  
 }
 
 export default App;

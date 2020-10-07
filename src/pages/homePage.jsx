@@ -17,6 +17,10 @@ class HomePage extends Component {
             </React.Fragment>
          );
     }
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+      }
 }
  
 export default HomePage;
