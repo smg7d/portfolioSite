@@ -35,7 +35,6 @@ class AboutMe extends Component {
                         <ul>
                             <li>JavaScript</li>
                             <li>React</li>
-                            <li>Material UI</li>
                             <li>HTML, CSS</li>
                         </ul>
                     </div>
@@ -44,10 +43,9 @@ class AboutMe extends Component {
                         <h4>Back End</h4>
                         <ul>
                             <li>Python</li>
-                            <li>Flask</li>
-                            <li>C#</li>
+                            <li>Flask + SqlAlchemy</li>
+                            <li>C# (.NET Core)</li>
                             <li>ASP.NET</li>
-                            <li>.NET Core</li>
                         </ul>
                     </div>
                     <div className="spacingDiv"></div>
@@ -55,10 +53,7 @@ class AboutMe extends Component {
                         <h4>Data & Viz</h4>
                         <ul>
                             <li>T-SQL</li>
-                            <li>MongoDB</li>
                             <li>Redis</li>
-                            <li>Kafka</li>
-                            <li>Airflow</li>
                             <li>Numpy, Pandas</li>
                             <li>R, TidyVerse</li>
                         </ul>
@@ -68,9 +63,11 @@ class AboutMe extends Component {
                         <h4>Infra & Deployment</h4>
                         <ul>
                             <li>Docker</li>
+                            <li>Kubernetes</li>
+                            <li>Jenkins</li>
                             <li>Linux</li>
-                            <li>AWS, Azure</li>
-                            <li>Heroku</li>
+                            <li>AWS (EC2, Route53, S3)</li>
+                            <li>Azure (VM, SQL Server on VM)</li>
                             <li>Raspberry Pi</li>
                         </ul>
                     </div>
