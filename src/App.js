@@ -9,6 +9,7 @@ import './App.css';
 import ZeldaProject from './pages/zeldaProject';
 import HomeTempProject from './pages/homeTempProject';
 import excelChatProject from './pages/excelChatProject';
+import instagramProject from './pages/instagramProject';
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route path="/Zelda" component={ZeldaProject}/>
           <Route path="/homeTempData" component={HomeTempProject}/>
           <Route path="/excelChat" component={excelChatProject}/>
+          <Route path="/friendshipParadox" component={instagramProject}/>
           
         </BrowserRouter>
     )
