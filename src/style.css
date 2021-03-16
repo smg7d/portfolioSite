@@ -389,6 +389,12 @@ a:hover {
             src: url('/static/fonts/SFMonoLight.otf');
             font-weight: medium;
             }
+
+            @font-face{
+            font-family: SF Mono Light Italic;
+            src: url('/static/fonts/SFMonoLightItalic.otf');
+            font-weight: medium;
+            }
             
             @font-face{
             font-family: SF Mono Medium;

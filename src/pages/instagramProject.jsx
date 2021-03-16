@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavBar from '../components/navbar'
 import ProjectHeader from '../components/projectHeader';
 import Footer from '../components/footer';
+import ProjectImg from '../components/projectImg';
 import { p1, p2, p4, p5, p6, p7, p8, p9 } from '../projects/instagram/text';
 import bob from '../projects/instagram/bob.svg'
 import histogram from '../projects/instagram/paradoxHistogram.png'
@@ -20,7 +21,7 @@ class InstagramProject extends Component {
                 <div className="projectBody">
                     <h3>Project Overview</h3>
                     <div className="projectParagraph">{p1()}</div>
-                    <img src={bob}/>
+                    <ProjectImg imgSrc={bob} imgCaption="Bob, throwing off the curve." />
                     <br />
                     <br />
                     <h3>Testing the hypothesis</h3>
@@ -29,7 +30,7 @@ class InstagramProject extends Component {
                     <br />
                     <h3>Challenges</h3>
                     <div className="projectParagraph">{p5()}</div>
-                    <img src={userID}/>
+                    <ProjectImg imgSrc={userID} imgCaption="code to swap usernames for ids" />
                     <div className="projectParagraph">{p6()}</div>
                     <img src={switchOut}/>
                     <div className="projectParagraph">{p7()}</div>
@@ -38,6 +39,7 @@ class InstagramProject extends Component {
                     <img src={histogram}/>
                     <div className="projectParagraph">{p9}</div>
                     <img src={scatter}/>
+                    <ProjectImg imgSrc={userID} imgCaption="dumb test" />
                 </div>
                 <Footer />
             </React.Fragment>
