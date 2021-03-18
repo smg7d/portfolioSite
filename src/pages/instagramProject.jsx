@@ -13,7 +13,15 @@ import userID from '../projects/instagram/userID.jpg'
 import './instagramProject.css';
 
 class InstagramProject extends Component {
+    
+    
     render() { 
+        const cap1 = "Bob, throwing off the curve.";
+        const cap2 = "Bob, throwing off the curve.";
+        const cap3 = "Bob, throwing off the curve.";
+        const cap4 = "Bob, throwing off the curve.";
+        const cap5 = "Bob, throwing off the curve.";
+        const cap6 = "Bob, throwing off the curve.";
         return ( 
             <React.Fragment>
                 <NavBar />
@@ -21,7 +29,7 @@ class InstagramProject extends Component {
                 <div className="projectBody">
                     <h3>Project Overview</h3>
                     <div className="projectParagraph">{p1()}</div>
-                    <ProjectImg imgSrc={bob} imgCaption="Bob, throwing off the curve." />
+                    <ProjectImg imgSrc={bob} imgCaption={cap1} />
                     <br />
                     <br />
                     <h3>Testing the hypothesis</h3>

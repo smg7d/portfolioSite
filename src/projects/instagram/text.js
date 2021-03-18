@@ -6,12 +6,11 @@ const p1 = () => {
         <React.Fragment>
             <p>
             The Friendship paradox is an observable phenomenon that states most people 
-            have fewer friends than their friends do on average. Put another way, if you 
+            have fewer friends than their friends do, or rather than their average friend. Put another way, if you 
             pluck a random person from the population and compare the number of friends
-            they have with the number of friends their friends do (on average),  
-            It has nothing to 
-            do with people and is actually a direct consequence of the topology of social 
-            networks. Any network where any node has more connections than another
+            they have with the number of friends their friends do, most people will have less.
+            It has nothing to do with people and is actually a direct consequence of the topology of social 
+            networks. In fact, any network where any single node has more connections than any other node
             will have this property. 
             </p>
             
@@ -19,12 +18,15 @@ const p1 = () => {
                 This <a href="https://www.alexirpan.com/2017/09/13/friendship-paradox.html" target="_blank">blog article</a> does 
                 a great overview of the math behind it, and it's worth the read, but the 
                 intuition is simple: when you look at the friend group of a random person, you
-                are more likely to find people that have lots of friends beca
+                are more likely to find people that have lots of friends because who shows up in friend groups?
+                people with lots of friends. Who doesn't show up in friend groups? People with fewer friends.
+                It's sampling bias, plain and simple.
             </p>
 
             <p>
-                Put another way, it's sampling bias. When you look at a random person's friend group,
-                you are more likely to find people that have more friends. In the same way, 
+                Put another way, if you count the number of friends each person has in a population, each
+                person gets counted once. But if you count the number of friends their friends have, you
+                count the popular people a lot more.
             </p>
         </React.Fragment>
         )
