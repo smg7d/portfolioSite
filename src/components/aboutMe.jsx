@@ -7,9 +7,9 @@ class AboutMe extends Component {
         return ( 
             <div className="aboutMeContainer">
                 <div className="aboutMeTitle">About Me</div>
-                <div className="aboutMeParagraph">I currently work as a data engineer at Atlanta-based 
-                healthcare startup <a href="https://loyalhealth.com/" target="_blank">Loyal</a> building ETL
-                pipelines from hospital systems to our own cloud warehouse and managing all things data. 
+                <div className="aboutMeParagraph">I currently work as a backend engineer at Atlanta-based 
+                healthcare startup <a href="https://loyalhealth.com/" target="_blank">Loyal</a> creating internal
+                services to make my fellow developers lives easier. 
                 My career started in finance, first modeling mortgage-backed securities at Fannie Mae and 
                 later as a product specialist at Invesco where I was part of a team that used data to develop, 
                 message, and sell quantitative fixed income strategies. 

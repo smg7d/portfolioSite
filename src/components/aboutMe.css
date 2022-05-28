@@ -59,7 +59,7 @@
 
     li {
         list-style-type: square;
-        list-style-image: url('/static/index_imgs/bullet.jpg');
+        list-style-image: url('../static/img/projects/bullet.jpg');
         height:20px;
     }
 
